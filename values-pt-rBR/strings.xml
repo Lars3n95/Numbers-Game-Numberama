@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Jogo dos Números</string>
+
+    <!-- Play -->
+    <string name="play_check">Checar</string>
+    <string name="play_help">Ajuda</string>
+    <string name="play_clear">Limpar</string>
+    <string name="play_undo">Desfazer</string>
+    <string name="play_undo_check">You have pressed \'Check\', do you want to undo the \'Check\ or the last pair of digits?</string>
+    <string name="play_last_combination">Last pair</string>
+    <string name="play_really_restart">Quer mesmo reiniciar?</string>
+    <string name="play_yes">Sim!</string>
+    <string name="play_no">Não!</string>
+    <string name="play_not_successful">Sem sucesso!</string>
+    <string name="play_successful">Sucesso!</string>
+    <string name="play_no_more_combinations">Sem mais combinações possíveis - pressione Checar</string>
+    <string name="play_still_combinations">There are still combinations available</string>
+    <string name="play_no_more_combinations_won">No more combinations possible - you have won</string>
+    <string name="play_random_numbers_header">Random numbers?</string>
+    <string name="play_random_numbers_text">Do you want random numbers or the digits from 1&#8211;18?</string>
+    <string name="play_random_number">Random</string>
+    <string name="play_no_random_numbers">1&#8211;18</string>
+    <string name="play_zoom_too_big">Impossível. Os botões não podem ser maiores</string>
+    <string name="play_zoom_too_small">Impossível. Os botões não podem ser menores</string>
+
+    <!-- Menu -->
+    <string name="menu_play">Jogar</string>
+    <string name="menu_instructions">Instruções</string>
+    <string name="menu_settings">Configurar</string>
+    <string name="menu_statistics">Estatísticas</string>
+    <string name="menu_info18">At the beginning you have the digits from the numbers 1&#8211;18. The difference from 1&#8211;19 is, that here are two digits (1 and 9) missing at the end.</string>
+    <string name="menu_info19">At the beginning you have the digits from the numbers 1&#8211;19. The difference from 1&#8211;18 is, that here are two digits (1 and 9) more at the end.</string>
+    <string name="menu_info_quick">This mode is like 1&#8211;18. The difference is, that this mode is much faster. The help comes within some seconds and it immediately checks if there are still some combinations possible.</string>
+    <string name="menu_info_spalte">This mode is like 1&#8211;18. The difference from this mode to others is, that in this mode you can not clear lines with the "clear" button, but you can clear columns. If you have a whole column where all numbers are crossed out, you can press the "clear" button and all these crossed out numbers are removed. The other numbers will change their position to fill the gaps. With this you can use the "clear" button tactically to change the game.\nRECOMMENDED: It is better to not use the "clear" button to remove single gaps, if you have only one or two lines. This could make the game even harder than expected ;)</string>
+    <string name="menu_info_time">This mode is only available, if you have finished 1&#8211;18 or 1&#8211;19 once.\nThe numbers at the beginning are created randomly and they are different after every restart!\nWhile you\'re playing the time is running in the background.\nFinish the game as fast as possible and beat your record!\nYou can find your record at Statistics -> Total statistics!</string>
+    <string name="menu_rate_app">Avaliar app</string>
+    <string name="menu_about_privacy">&#160;Sobre &amp; Privacidade&#160;</string>
+    <string name="menu_choose_mode">Escolha o modo</string>
+    <string name="menu_118">1&#8211;18</string>
+    <string name="menu_119">1&#8211;19</string>
+    <string name="menu_quick_mode">Modo rápido</string>
+    <string name="menu_column_mode">Modo coluna</string>
+    <string name="menu_time_duel">Desafio no tempo</string>
+
+    <string name="menu_leaderboards">Leaderboards</string>
+    <string name="menu_achievements">Achievements</string>
+    <string name="menu_login_googleplay">Please log in with Google Play Games (Click on controller on main menu)</string>
+
+    <!-- About -->
+    <string name="about_header">\nSobre</string>
+    <string name="about_privacy_policy_header">Privacidade</string>
+    <string name="about_name_email">\nContato:\n___\n\nE-Mail:\n___</string>
+    <string name="about_more_apps">\nMais Apps:</string>
+    <string name="about_fast_typing">Fast Typing (clique aqui)</string>
+    <string name="about_fizzbuzz">FizzBuzz (clique aqui)</string>
+    <string name="about_notifyme">Notify me (clique aqui)</string>
+
+    <!-- Instruction -->
+    <string name="instruction_general">General</string>
+    <string name="instruction_combinations">Pairs</string>
+    <string name="instruction_check">Check +</string>
+    <string name="instruction_buttons">Buttons</string>
+    <string name="instruction_combinations_1">Neste jogo você precisa clicar em dois números iguais ou que somados possuem valor 10.\nMas apenas dois números próximos, lado a lado ou em linha consecutivas.</string>
+    <string name="instruction_combinations_3">A seguinte imagem mostra como funciona: \n</string>
+    <string name="instruction_combinations_4">- do lado esquerdo os dois 1\'s, porque estão próximos</string>
+    <string name="instruction_combinations_5">- na segunda linha os dois 1\'s, pois estão lado a lado</string>
+    <string name="instruction_combinations_6">- o 9 na primeira linha e o 1 na segunda, pois estão juntos em linhas consecutivas</string>
+    <string name="instruction_combinations_7">\nSe os números estiverem riscados, você pode pulá-los como mostrado aqui:</string>
+    <string name="instruction_combinations_8">\nOu aqui com o 8 e o 2:</string>
+    <string name="instruction_check_1">Se não houver mais nenhum número para ser combinado, você terá que clicar no botão \'Checar\':</string>
+    <string name="instruction_check_2">\nAssim, todos os números, que você não puder riscar serão sobrescritos entre os números existentes:</string>
+    <string name="instruction_general_1">O jogo acaba quando todos os números são riscados.</string>
+    <string name="instruction_general_2">\nVocê precisa terminar os modos 1&#8211;18 ou 1&#8211;19 uma vez para ativar o modo \'Desafio no tempo\'.</string>
+    <string name="instruction_general_3">\nO jogo salva e carrega automaticamente. Se você quer reiniciar, pressione o botão \'reiniciar\' no jogo.</string>
+    <string name="instruction_general_4">\nNas configurações você pode mudar as notificações do jogo (ex.: \'Sucesso\', \'Sem Sucesso\') e a ativação da barra de notificação. Você também pode mudar o idioma.</string>
+    <string name="instruction_buttons_1">The \'Check\' button needs to be clicked if no more combinations are possible. It writes the remaining numbers behind the existing ones (see tab: Check).\n</string>
+    <string name="instruction_buttons_2">O botão \'Desfazer\' desfaz o último movimento.\n</string>
+    <string name="instruction_buttons_3">O botão \'Limpar\' apaga todas as linhas vazias.\n</string>
+    <string name="instruction_buttons_4">O botão \'Ajuda\' (apenas) mostra uma combinação que seja possível no momento. Clicar insistentemente no botão não necessariamente remove todos os números. O botão \'Ajuda\' só fica acessível depois de alguns segundos para evitar cliques constantes. Press short for complete help and long for just a hint if there are still combinations available.\n</string>
+    <string name="instruction_buttons_5">The \'Restart\' button can be used to restart the current game.</string>
+
+    <!-- Ingame Statistics -->
+    <string name="ingame_statistics_title">Game Statistics</string>
+    <string name="ingame_statistics_numbers">Numbers</string>
+    <string name="ingame_statistics_rows">Rows</string>
+    <string name="ingame_statistics_ones">Ones</string>
+    <string name="ingame_statistics_twos">Twos</string>
+    <string name="ingame_statistics_threes">Threes</string>
+    <string name="ingame_statistics_fours">Fours</string>
+    <string name="ingame_statistics_fives">Fives</string>
+    <string name="ingame_statistics_sixes">Sixes</string>
+    <string name="ingame_statistics_sevens">Sevens</string>
+    <string name="ingame_statistics_eights">Eights</string>
+    <string name="ingame_statistics_nines">Nines</string>
+    <string name="ingame_statistics_error">Error</string>
+
+    <!-- Finished dialog -->
+    <string name="finished_dialog_menu">Menu</string>
+    <string name="finished_dialog_restart">Reiniciar</string>
+    <string name="finished_dialog_share">Compartilhar</string>
+    <string name="finished_dialog_header">Você conseguiu!</string>
+    <string name="finished_dialog_insert_sd">Por favor insira o cartão SD</string>
+    <string name="finished_dialog_one_moment">Um momento&#8230;</string>
+    <string name="finished_dialog_sharing_not_possible">Seu smartphone não suporta a função compartilhar. Você pode capturar a tela ao invés disso.</string>
+    <string name="finished_dialog_not_solvable">The game is not solvable anymore. Start a new game with \'Reiniciar\'.\n</string>
+
+    <string name="finished_dialog_needed">Gastei&#160;</string>
+    <string name="finished_dialog_hours">&#160;horas,&#160;</string>
+    <string name="finished_dialog_minutes">&#160;minutos,&#160;</string>
+    <string name="finished_dialog_seconds">&#160;segundos!\n</string>
+    <string name="finished_dialog_time_how_good_are_you">\nO quão bom é você?\nBaixe \'Jogo dos Números - Numerama\' da Play Store e mostre!</string>
+
+    <string name="finished_dialog_118_header">I have finished the 1&#8211;18 mode&#160;</string>
+    <string name="finished_dialog_119_header">I have finished the 1&#8211;19 mode&#160;</string>
+    <string name="finished_dialog_quick_header">Terminei o "Modo rápido"&#160;</string>
+    <string name="finished_dialog_column_header">Terminei o "Modo coluna"&#160;</string>
+    <string name="finished_dialog_times">&#160;time(s)! This time I needed&#160;</string>
+    <string name="finished_dialog_times_how_good_are_you">&#160;combinations. How good are you?\nDownload \'Numbers Game - Numberama\' from the Play Store and show it!</string>
+
+    <!-- Settings -->
+    <string name="settings_fullscreen_on">Tela cheia <b>sim</b> / não</string>
+    <string name="settings_fullscreen_off">Tela cheia sim / <b>não</b></string>
+    <string name="settings_notifications_on">Notificações no jogo <b>sim</b> / não</string>
+    <string name="settings_notifications_off">Notificações no jogo sim / <b>não</b></string>
+    <string name="settings_zoom_on">Zoom <b>sim</b> / não</string>
+    <string name="settings_zoom_off">Zoom sim / <b>não</b></string>
+    <string name="settings_auto_clear_on">Limpar automaticamente <b>sim</b> / não</string>
+    <string name="settings_auto_clear_off">Limpar automaticamente sim / <b>não</b></string>
+    <string name="settings_highlight_on">Highlight neighbours <b>on</b> / off</string>
+    <string name="settings_highlight_off">Highlight neighbours on / <b>off</b></string>
+    <string name="settings_buttons_position_top">Position of ingame buttons: <b>top</b> / bottom</string>
+    <string name="settings_buttons_position_bottom">Position of ingame buttons: top / <b>bottom</b></string>
+    <string name="settings_auto_clear_performance">The \'Auto clear\' could have a minor impact on the performance, if you have many numbers and rows ingame</string>
+    <string name="settings_choose_colors">Choose colors</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_german">Alemão</string>
+    <string name="settings_english">Inglês</string>
+    <string name="settings_greek">Grego</string>
+    <string name="settings_portuguese">Português Brasileiro</string>
+    <string name="settings_russian">Russo</string>
+    <string name="settings_spanish">Espanhol</string>
+
+    <string name="choose_colors_header">Choose your colors by clicking the color next to the specified item. The chosen color is highlighted, the others are transparent.</string>
+    <string name="choose_colors_background">Background</string>
+    <string name="choose_colors_one">One</string>
+    <string name="choose_colors_two">Two</string>
+    <string name="choose_colors_three">Three</string>
+    <string name="choose_colors_four">Four</string>
+    <string name="choose_colors_five">Five</string>
+    <string name="choose_colors_six">Six</string>
+    <string name="choose_colors_seven">Seven</string>
+    <string name="choose_colors_eight">Eight</string>
+    <string name="choose_colors_nine">Nine</string>
+
+    <!-- Rate App dialog -->
+    <string name="rate_app_no">Não, obrigado</string>
+    <string name="rate_app_later">Me lembre depois</string>
+    <string name="rate_app_rate">Avalie o Jogo dos Números</string>
+    <string name="rate_app_header">Avalie o Jogo dos Números</string>
+    <string name="rate_app_text">Se você gostou do Jogo dos Números, por favor reserve um tempo para avaliá-lo. \nObrigado pelo seu suporte!</string>
+
+    <!-- Statistics -->
+    <string name="statistics_reset">Reiniciar</string>
+    <string name="statistics_total">Estatísticas totais</string>
+    <string name="statistics_reset_dialog">Zerar estatísticas?</string>
+    <string name="statistics_total_finished">Total de jogos terminados:\n</string>
+    <string name="statistics_total_combinations">Total de conexões de dois números:\n</string>
+    <string name="statistics_total_numbers">Total de números riscados:\n</string>
+    <string name="statistics_total_rows">Total de linhas riscadas:\n</string>
+    <string name="statistics_total_numbers_now">Total de números riscados nos jogos atuais:\n</string>
+    <string name="statistics_total_combinations_now">Total de conexões de dois números nos jogos atuais:\n</string>
+    <string name="statistics_total_time">Total de tempo de jogo:\n</string>
+    <string name="statistics_total_time_duel_record">Recorde de desafio no tempo:\n</string>
+    <string name="statistics_total_time_duel_finished">Jogos terminados de desafio no tempo:\n</string>
+
+    <string name="statistics_118_finished">Jogos terminados:\n</string>
+    <string name="statistics_118_combinations">Número de conexões de dois números:\n</string>
+    <string name="statistics_118_numbers">Número total de números riscados:\n</string>
+    <string name="statistics_118_rows">Número total de linhas riscadas:\n</string>
+    <string name="statistics_118_numbers_now">Número total de todos os números riscados no jogo atual:\n</string>
+    <string name="statistics_118_combinations_now">Número total de conexões de dois números no jogo atual:\n</string>
+    <string name="statistics_118_time">Tempo de jogo:\n</string>
+
+    <string name="statistics_119_finished">Jogos terminados:\n</string>
+    <string name="statistics_119_combinations">Número de conexões de dois números:\n</string>
+    <string name="statistics_119_numbers">Número total de números riscados:\n</string>
+    <string name="statistics_119_rows">Número total de linhas riscadas:\n</string>
+    <string name="statistics_119_numbers_now">Número total de todos os números riscados no jogo atual:\n</string>
+    <string name="statistics_119_combinations_now">Número total de conexões de dois números no jogo atual:\n</string>
+    <string name="statistics_119_time">Tempo de jogo:\n</string>
+</resources>
