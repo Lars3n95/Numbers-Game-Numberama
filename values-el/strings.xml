@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Numbers Game</string>
+
+    <!-- Play -->
+    <string name="play_check">Έλεγχος</string>
+    <string name="play_help">Βοήθεια</string>
+    <string name="play_clear">Καθαρισμός</string>
+    <string name="play_undo">Αναίρεση</string>
+    <string name="play_undo_check">Πατήσατε το \'Έλεγχος\'. Θέλετε να αναιρέσετε τον έλεγχο ή το τελευταίο ζεύγος αριθμών;</string>
+    <string name="play_last_combination">Τελευταίο ζεύγος</string>
+    <string name="play_really_restart">Σίγουρα θέλετε επανέναρξη;</string>
+    <string name="play_yes">Ναι!</string>
+    <string name="play_no">Όχι!</string>
+    <string name="play_not_successful">Ανεπιτυχής!</string>
+    <string name="play_successful">Επιτυχής!</string>
+    <string name="play_no_more_combinations">Δεν υπάρχουν περαιτέρω συνδυασμοί - πατήστε Έλεγχος</string>
+    <string name="play_still_combinations">Υπάρχουν ακόμα δυνατοί συνδυασμοί</string>
+    <string name="play_no_more_combinations_won">Δεν υπάρχουν άλλοι δυνατοί συνδυασμοί - Νικήσατε</string>
+    <string name="play_random_numbers_header">Τυχαίοι αριθμοί;</string>
+    <string name="play_random_numbers_text">Θέλετε τυχαίους αριθμούς ή τα ψηφία από το 1&#8211;18;</string>
+    <string name="play_random_number">Τυχαίους</string>
+    <string name="play_no_random_numbers">1&#8211;18</string>
+    <string name="play_zoom_too_big">Αδύνατο. Τα κουμπιά δεν μπορούν να είναι μεγαλύτερα</string>
+    <string name="play_zoom_too_small">Αδύνατο. Τα κουμπιά δεν μπορούν να είναι μικρότερα</string>
+
+    <!-- Menu -->
+    <string name="menu_play">Έναρξη</string>
+    <string name="menu_instructions">Οδηγίες</string>
+    <string name="menu_settings">Ρυθμίσεις</string>
+    <string name="menu_statistics">Στατιστικά</string>
+    <string name="menu_info18">Στην αρχή έχεις τα ψηφία από τους αριθμούς 1&#8211;18. Η διαφορά από το 1&#8211;19 είναι ότι λείπουν δύο ψηφία (1 και 9) από το τέλος.</string>
+    <string name="menu_info19">Στην αρχή έχεις τα ψηφία από τους αριθμούς 1&#8211;19. Η διαφορά από το 1&#8211;18 είναι ότι υπάρχουν δύο επιπλέον ψηφία (1 και 9) στο τέλος.</string>
+    <string name="menu_info_quick">Αυτό το mode είναι σαν το 1&#8211;18. Η διαφορά είναι ότι αυτό είναι πολύ πιο γρήγορο. Η βοήθεια εμφανίζεται σε μερικά δευτερόλεπτα και ελέγχει αμέσως αν υπάρχουν άλλοι δυνατοί συνδυασμοί.</string>
+    <string name="menu_info_spalte">Αυτό το mode είναι σαν το 1&#8211;18. Η διαφορά του από τα άλλα είναι ότι δεν μπορείτε να διαγράψετε γραμμές με το κουμπί "Καθαρισμός", αλλά στήλες. Αν έχετε μια στήλη όπου έχουν διαγραφεί όλοι οι αριθμοί, μπορείτε να πατήσετε το κουμπί "Καθαρισμός" για να τους απομακρύνετε. Οι υπόλοιποι αριθμοί θα μετακινηθούν για να καλύψουν τα κενά. \nΣΥΜΒΟΥΛΗ: Είναι καλύτερο να μη χρησιμοποιείτε το "Καθαρισμός" για να απομακρύνετε μεμονωμένα κενά, αν έχετε μόνο μια ή δύο γραμμές. Αυτό μπορεί να κάνει το παιχνίδι ακόμα δυσκολότερο ;)</string>
+    <string name="menu_info_time">Αυτό το mode είναι διαθέσιμο αν έχετε ολοκληρώσει το 1&#8211;18 ή το 1&#8211;19 μια φορά.\nΟι αριθμοί στην αρχή δημιουργούνται τυχαία και είναι διαφορετικοί σε κάθε επανεκκίνηση!\nΕνώ παίζετε ο χρόνος τρέχει στο παρασκήνιο.\nΤελειώστε το παιχνίδι όσο το δυνατόν γρηγορότερα για να σπάσετε το ρεκόρ σας!\nΜπορείτε να δείτε το ρεκόρ σας στο Στατιστικά > Συνολικά στατιστικά!</string>
+    <string name="menu_rate_app">Βαθμολογήστε</string>
+    <string name="menu_about_privacy">&#160;Περί &amp; Πολιτική ασφαλείας&#160;</string>
+    <string name="menu_choose_mode">Επιλέξτε mode</string>
+    <string name="menu_118">1&#8211;18</string>
+    <string name="menu_119">1&#8211;19</string>
+    <string name="menu_quick_mode">Γρήγορο mode</string>
+    <string name="menu_column_mode">Mode στηλών</string>
+    <string name="menu_time_duel">Χρονομετρούμενο</string>
+
+    <string name="menu_leaderboards">Πίνακες κατάταξης</string>
+    <string name="menu_achievements">Επιτεύγματα</string>
+    <string name="menu_login_googleplay">Παρακαλώ συνδεθείτε στο Google Play Games (πατήστε το χειριστήριο στο κεντρικό μενού)</string>
+
+    <!-- About -->
+    <string name="about_header">\nΠερί</string>
+    <string name="about_privacy_policy_header">Πολιτική ασφαλείας</string>
+    <string name="about_name_email">\nΕπικοινωνία:\n___\n\nE-Mail:\n___</string>
+    <string name="about_more_apps">\nΠερισσότερες εφαρμογές:</string>
+    <string name="about_fast_typing">Fast Typing (κλικ εδώ)</string>
+    <string name="about_fizzbuzz">FizzBuzz (κλικ εδώ)</string>
+    <string name="about_notifyme">Notify me (κλικ εδώ)</string>
+
+    <!-- Instruction -->
+    <string name="instruction_general">Γενικά</string>
+    <string name="instruction_combinations">Ζεύγη</string>
+    <string name="instruction_check">Έλεγχος</string>
+    <string name="instruction_buttons">Κουμπιά</string>
+    <string name="instruction_combinations_1">Σε αυτό το παιχνίδι πρέπει να επιλέξετε 2 ίδιους αριθμούς ή 2 αριθμούς που δίνουν άθροισμα 10.\nΌμως μόνο 2 αριθμούς που είναι δίπλα-δίπλα ή ο ένας πάνω από τον άλλο.</string>
+    <string name="instruction_combinations_3">Στην εικόνα φαίνεται πώς λειτουργεί: \n</string>
+    <string name="instruction_combinations_4">- στα αριστερά τα δύο 1, γιατί είναι το ένα πάνω από το άλλο</string>
+    <string name="instruction_combinations_5">- στη 2η γραμμή τα δύο 1, γιατί είναι δίπλα-δίπλα</string>
+    <string name="instruction_combinations_6">- το 9 στη 1η και το 1 στη 2η γραμμή, γιατί δε μεσολαβεί κάνενας αριθμός ανάμεσα τους</string>
+    <string name="instruction_combinations_7">\nΑν κάποιοι αριθμοί έχουν διαγραφεί, είναι σαν να μην υπάρχουν, όπως φαίνεται εδώ:</string>
+    <string name="instruction_combinations_8">\nΉ εδώ με το 8 και το 2:</string>
+    <string name="instruction_check_1">Αν δεν υπάρχουν άλλοι αριθμοί για να συνδυαστούν, πρέπει να πατήσετε το κουμπί \'Έλεγχος\' :</string>
+    <string name="instruction_check_2">\nΤότε όλοι οι εναπομείναντες αριθμοί θα αντιγραφούν μετά τον τελευταίο αριθμό:</string>
+    <string name="instruction_general_1">Το παιχνίδι ολοκληρώνεται όταν διαγράψετε όλους τους αριθμούς.</string>
+    <string name="instruction_general_2">\nΠρέπει να ολοκληρώσετε μια φορά το 1&#8211;18 ή το 1&#8211;19 mode για να έχετε πρόσβαση στο \'Χρονομετρούμενο\' mode.</string>
+    <string name="instruction_general_3">\nΤο παιχνίδι αποθηκεύεται και φορτώνεται αυτόματα. Αν θέλετε επανέναρξη του, πατήστε το κουμπί \'Επανέναρξη\'.</string>
+    <string name="instruction_general_4">\nΣτις ρυθμίσεις μπορείτε να ενεργοποιήσετε τις ειδοποιήσεις εντός του παιχνιδιού (π.χ. \'Επιτυχής\', \'Ανεπιτυχής\') και την μπάρα ειδοποιήσεων και να επιλέξετε γλώσσα.</string>
+    <string name="instruction_buttons_1">Το κουμπί \'Έλεγχος\' το πατάτε όταν δεν υπάρχουν άλλοι δυνατοί συνδυασμοί. Γράφοι τους εναπομείναντες αριθμούς πριν τους ήδη υπάρχοντες (δείτε την κάρτα: Έλεγχος).\n</string>
+    <string name="instruction_buttons_2">Το κουμπί \'Αναίρεση\' αναιρεί την τελευταία κίνηση.\n</string>
+    <string name="instruction_buttons_3">Το κουμπί \'Καθαρισμός\' διαγράφει τις κενές από αριθμούς σειρές.\n</string>
+    <string name="instruction_buttons_4">Το κουμπί \'Βοήθεια\' δείχνει έναν συνδυασμό που είναι δυνατός. Συνεχείς επιλογές του δε σημαίνουν ότι θα καθαρίσετε όλους τους αριθμούς. Το κουμπί \'Βοήθεια\' είναι επιλέξιμο μόνο μετά από μερικά δευτερόλεπτα, για αποτροπή της συνεχούς χρήσης του. Πιέστε σύντομα για πλήρη βοήθεια και παρατεταμένα για υπόδειξη αν υπάρχουν άλλοι συνδυασμοί.\n</string>
+    <string name="instruction_buttons_5">Το κουμπί \'Επανεκκίνηση\' επανεκκινεί το τρέχον παιχνίδι.</string>
+
+    <!-- Ingame Statistics -->
+    <string name="ingame_statistics_title">Game Statistics</string>
+    <string name="ingame_statistics_numbers">Numbers</string>
+    <string name="ingame_statistics_rows">Rows</string>
+    <string name="ingame_statistics_ones">Ones</string>
+    <string name="ingame_statistics_twos">Twos</string>
+    <string name="ingame_statistics_threes">Threes</string>
+    <string name="ingame_statistics_fours">Fours</string>
+    <string name="ingame_statistics_fives">Fives</string>
+    <string name="ingame_statistics_sixes">Sixes</string>
+    <string name="ingame_statistics_sevens">Sevens</string>
+    <string name="ingame_statistics_eights">Eights</string>
+    <string name="ingame_statistics_nines">Nines</string>
+    <string name="ingame_statistics_error">Error</string>
+
+    <!-- Finished dialog -->
+    <string name="finished_dialog_menu">Μενού</string>
+    <string name="finished_dialog_restart">Επανέναρξη</string>
+    <string name="finished_dialog_share">Κοινή χρήση</string>
+    <string name="finished_dialog_header">Τα καταφέρατε!</string>
+    <string name="finished_dialog_insert_sd">Παρακαλώ τοποθετήστε την κάρτα μνήμης</string>
+    <string name="finished_dialog_one_moment">Μια στιγμή&#8230;</string>
+    <string name="finished_dialog_sharing_not_possible">Η συσκευή σας δεν υποστηρίζει αυτή τη λειτουργία κοινής χρήσης. Μπορείτε να πάρετε ένα στιγμιότυπο οθόνης αντί αυτού.</string>
+    <string name="finished_dialog_not_solvable">Το παιχνίδι δεν έχει άλλες λύσεις. Ξεκινήστε ένα νέο με το \'Επανέναρξη\'.\n</string>
+
+    <string name="finished_dialog_needed">Χρειάστηκα&#160;</string>
+    <string name="finished_dialog_hours">&#160;ώρες,&#160;</string>
+    <string name="finished_dialog_minutes">&#160;λεπτά,&#160;</string>
+    <string name="finished_dialog_seconds">&#160;δευτερόλεπτα!\n</string>
+    <string name="finished_dialog_time_how_good_are_you">\nΠόσο καλός είσαι εσύ;\nΚατέβασε το \'Numbers Game - Numberama\' από το Google Play και απόδειξε το!</string>
+
+    <string name="finished_dialog_118_header">Τελείωσα το mode 1&#8211;18&#160;</string>
+    <string name="finished_dialog_119_header">Ολοκλήρωσα το 1&#8211;19 mode&#160;</string>
+    <string name="finished_dialog_quick_header">Ολοκλήρωσα το "Γρήγορο mode"&#160;</string>
+    <string name="finished_dialog_column_header">Ολοκλήρωσα το "Mode στηλών"&#160;</string>
+    <string name="finished_dialog_times">&#160;φορές! Αυτή τη φορά χρειάστηκα&#160;</string>
+    <string name="finished_dialog_times_how_good_are_you">&#160;συνδυασμούς. Πόσο καλός είσαι;\nΚατέβασε το \'Numbers Game - Numberama\' από το Play Store και απόδειξε το!</string>
+
+    <!-- Settings -->
+    <string name="settings_fullscreen_on">Πλήρης οθόνη <b>ενεργή</b> / μη ενεργή</string>
+    <string name="settings_fullscreen_off">Πλήρης οθόνη ενεργή / <b>μη ενεργή</b></string>
+    <string name="settings_notifications_on">Ειδοποιήσεις παιχνιδιού <b>ενεργές</b> / μη ενεργές</string>
+    <string name="settings_notifications_off">Ειδοποιήσεις παιχνιδιού ενεργές / <b>μη ενεργές</b></string>
+    <string name="settings_zoom_on">Ζουμ <b>ενεργό</b> / μη ενεργό</string>
+    <string name="settings_zoom_off">Ζουμ ενεργό / <b>μη ενεργό</b></string>
+    <string name="settings_auto_clear_on">Αυτόματος καθαρισμός <b>ενεργός</b> / μη ενεργός</string>
+    <string name="settings_auto_clear_off">Αυτόματος καθαρισμός ενεργός / <b>μη ενεργός</b></string>
+    <string name="settings_highlight_on">Επισήμανση γειτονικών <b>ενεργή</b> / μη ενεργή</string>
+    <string name="settings_highlight_off">Επισήμανση γειτονικών ενεργή / <b>μη ενεργή</b></string>
+    <string name="settings_buttons_position_top">Θέση κουμπιών: <b>Πάνω</b> / Κάτω</string>
+    <string name="settings_buttons_position_bottom">Θέση κουμπιών: Πάνω / <b>Κάτω</b></string>
+    <string name="settings_auto_clear_performance">Ο \'Αυτόματος καθαρισμός\' μπορεί να έχει μια μικρή επίπτωση στην απόδοση, αν έχετε πολλές γραμμές και στήλες στο παιχνίδι.</string>
+    <string name="settings_choose_colors">Επιλογή χρωμάτων</string>
+    <string name="settings_language">Γλώσσα</string>
+    <string name="settings_german">Γερμανικά</string>
+    <string name="settings_english">Αγγλικά</string>
+    <string name="settings_greek">Ελληνικά</string>
+    <string name="settings_portuguese">Πορτογαλικά (Βραζιλίας)</string>
+    <string name="settings_russian">ρωσικός</string>
+    <string name="settings_spanish">Ισπανικά</string>
+
+    <string name="choose_colors_header">Επιλέξτε το χρώμα σας πατώντας το χρώμα δίπλα από το κάθε αντικείμενο. Το επιλεγμένο χρώμα είναι εμφανές, ενώ τα υπόλοιπα διαφανή.</string>
+    <string name="choose_colors_background">Φόντο</string>
+    <string name="choose_colors_one">Ένα</string>
+    <string name="choose_colors_two">Δύο</string>
+    <string name="choose_colors_three">Τρία</string>
+    <string name="choose_colors_four">Τέσσερα</string>
+    <string name="choose_colors_five">Πέντε</string>
+    <string name="choose_colors_six">Έξι</string>
+    <string name="choose_colors_seven">Επτά</string>
+    <string name="choose_colors_eight">Οκτώ</string>
+    <string name="choose_colors_nine">Εννέα</string>
+
+    <!-- Rate App dialog -->
+    <string name="rate_app_no">Όχι, ευχαριστώ</string>
+    <string name="rate_app_later">Υπενθύμιση αργότερα</string>
+    <string name="rate_app_rate">Βαθμολόγηση Numbers Game</string>
+    <string name="rate_app_header">Βαθμολόγηση Numbers Game</string>
+    <string name="rate_app_text">Αν σας αρέσει το Numbers Game - Numberama, παρακαλώ βαθμολογήστε το. \nΕυχαριστώ για την υποστήριξη!</string>
+
+    <!-- Statistics -->
+    <string name="statistics_reset">Επαναφορά</string>
+    <string name="statistics_total">Συνολικά στατιστικά</string>
+    <string name="statistics_reset_dialog">Μηδενισμός στατιστικών;</string>
+    <string name="statistics_total_finished">Σύνολο ολοκληρωμένων παιχνιδιών:\n</string>
+    <string name="statistics_total_combinations">Σύνολο επιτυχημένων συνδέσεων αριθμών:\n</string>
+    <string name="statistics_total_numbers">Σύνολο εγγεγραμμένων αριθμών:\n</string>
+    <string name="statistics_total_rows">Σύνολο εγγεγραμμένων γραμμών:\n</string>
+    <string name="statistics_total_numbers_now">Σύνολο εγγεγραμμένων αριθμών στο τελευταίο παιχνίδι:\n</string>
+    <string name="statistics_total_combinations_now">Σύνολο επιτυχημένων συνδέσεων αριθμών στο τελευταίο παιχνίδι:\n</string>
+    <string name="statistics_total_time">Συνολικός χρόνος παιχνιδιού:\n</string>
+    <string name="statistics_total_time_duel_record">Ρεκόρ Χρονομετρούμενου:\n</string>
+    <string name="statistics_total_time_duel_finished">Ολοκληρωμένα Χρονομετρούμενα παιχνίδια:\n</string>
+
+    <string name="statistics_118_finished">Ολοκληρωμένα παιχνίδια:\n</string>
+    <string name="statistics_118_combinations">Σύνολο επιτυχημένων συνδέσεων αριθμών:\n</string>
+    <string name="statistics_118_numbers">Σύνολο εγγεγραμμένων αριθμών:\n</string>
+    <string name="statistics_118_rows">Σύνολο εγγεγραμμένων γραμμών:\n</string>
+    <string name="statistics_118_numbers_now">Σύνολο εγγεγραμμένων αριθμών στο τελευταίο παιχνίδι:\n</string>
+    <string name="statistics_118_combinations_now">Σύνολο επιτυχημένων συνδέσεων αριθμών στο τελευταίο παιχνίδι:\n</string>
+    <string name="statistics_118_time">Χρόνος παιχνιδιού:\n</string>
+
+    <string name="statistics_119_finished">Ολοκληρωμένα παιχνίδια:\n</string>
+    <string name="statistics_119_combinations">Σύνολο επιτυχημένων συνδέσεων αριθμών:\n</string>
+    <string name="statistics_119_numbers">Σύνολο εγγεγραμμένων αριθμών:\n</string>
+    <string name="statistics_119_rows">Σύνολο εγγεγραμμένων γραμμών:\n</string>
+    <string name="statistics_119_numbers_now">Σύνολο εγγεγραμμένων αριθμών στο τελευταίο παιχνίδι:\n</string>
+    <string name="statistics_119_combinations_now">Σύνολο επιτυχημένων συνδέσεων αριθμών στο τελευταίο παιχνίδι:\n</string>
+    <string name="statistics_119_time">Χρόνος παιχνιδιού:\n</string>
+</resources>
