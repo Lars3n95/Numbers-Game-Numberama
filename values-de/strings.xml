@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Zahlenspiel</string>
+
+    <!-- Play -->
+    <string name="play_check">Check</string>
+    <string name="play_help">Hilfe</string>
+    <string name="play_clear">Löschen</string>
+    <string name="play_undo">Rückgängig</string>
+    <string name="play_undo_check">Du hast \'Check\' gedrückt, möchtest du das \'Check\' rückgängig machen, oder das letzte Ziffernpaar?</string>
+    <string name="play_last_combination">Letzte Ziffernpaar</string>
+    <string name="play_really_restart">Wirklich neu starten?</string>
+    <string name="play_yes">Ja!</string>
+    <string name="play_no">Nein!</string>
+    <string name="play_not_successful">Nicht erfolgreich!</string>
+    <string name="play_successful">Erfolgreich!</string>
+    <string name="play_no_more_combinations">Keine Kombination mehr möglich - Check drücken</string>
+    <string name="play_still_combinations">Es sind noch Kombinationen möglich</string>
+    <string name="play_no_more_combinations_won">Keine Kombination mehr möglich - du hast gewonnen</string>
+    <string name="play_random_numbers_header">Zufällige Zahlen?</string>
+    <string name="play_random_numbers_text">Willst du zufällige Zahlen oder die Ziffern von 1&#8211;18?</string>
+    <string name="play_random_number">Zufällig</string>
+    <string name="play_no_random_numbers">1&#8211;18</string>
+    <string name="play_zoom_too_big">Nicht möglich. Die Buttons können nicht größer sein</string>
+    <string name="play_zoom_too_small">Nicht möglich. Die Buttons können nicht kleiner sein</string>
+
+    <!-- Menu -->
+    <string name="menu_play">Spielen</string>
+    <string name="menu_instructions">Anleitung</string>
+    <string name="menu_settings">Optionen</string>
+    <string name="menu_statistics">Statistik</string>
+    <string name="menu_info18">Zu Beginn existieren die Ziffern der Nummern 1&#8211;18. Der Unterschied zu 1&#8211;19 ist, dass hier am Ende zwei Ziffern (1 und 9) fehlen.</string>
+    <string name="menu_info19">Zu Beginn existieren die Ziffern der Nummern 1&#8211;19. Der Unterschied zu 1&#8211;18 ist, dass hier am Ende zwei Ziffern (1 und 9) mehr existieren.</string>
+    <string name="menu_info_quick">Dieser Modus ist wie der Modus 1&#8211;18. Der Unterschied ist, dass dieser Modus schneller ist. Die Hilfe kommt innerhalb weniger Sekunden und es wird nach jedem Zug direkt überprüft, ob noch Züge möglich sind.</string>
+    <string name="menu_info_spalte">Der Unterschied von diesem Modus, gegenüber den anderen ist, dass hier beim Klick auf den "Löschen" Knopf keine Zeilen gelöscht werden, sondern Spalten. Wenn eine komplette Spalte nur aus durchgestrichenen Zahlen besteht, kannst du den "Löschen" Knopf drücken und diese Zahlen werden entfernt. Die restlichen Zahlen rücken dann auf um die Lücken zu schließen. Dadurch kannst du den "Löschen" Knopf taktisch nutzen um das Spiel zu verändern.\nEMPFHOHLEN: Es ist besser den "Löschen" Knopf nicht zu nutzen um einzelne Lücken zu entfernen, wenn du nur ein oder zwei Zeilen hast. Das kann das ganze Spiel schwieriger machen als gewünscht ;)</string>
+    <string name="menu_info_time">Dieser Modus ist erst verfügbar, wenn du den Modus 1&#8211;18 oder 1&#8211;19 einmal erfolgreich abgeschlossen hast.\nDie Zahlen zu Beginn werden zufällig erstellt und sind nach jedem Neustart anders!\nWährend du spielst läuft im Hintergrund die Zeit.\nVersuche so schnell wie möglich das Spiel zu beenden und knacke deinen Rekord!\nDeinen aktuellen Rekord findest du unter Statistik -> Gesamtstatistik!</string>
+    <string name="menu_rate_app">App bewerten</string>
+    <string name="menu_about_privacy">&#160;Kontakt &amp; Datenschutz&#160;</string>
+    <string name="menu_choose_mode">Wähle den Modus</string>
+    <string name="menu_118">1&#8211;18</string>
+    <string name="menu_119">1&#8211;19</string>
+    <string name="menu_quick_mode">Quick mode</string>
+    <string name="menu_column_mode">Spaltenlöscher</string>
+    <string name="menu_time_duel">Zeitduell</string>
+
+    <string name="menu_leaderboards">Ranglisten</string>
+    <string name="menu_achievements">Erfolge</string>
+    <string name="menu_login_googleplay">Bitte melde dich mit den Google Play Games an (der Controller im Hauptmenü)</string>
+
+    <!-- About -->
+    <string name="about_header">\nKontakt</string>
+    <string name="about_privacy_policy_header">Datenschutzerklärung</string>
+    <string name="about_name_email">\nName:\n___\n\nE-Mail-Adresse:\n___</string>
+    <string name="about_more_apps">\nWeitere Apps:</string>
+    <string name="about_fast_typing">Flinkes Tippen (hier klicken)</string>
+    <string name="about_fizzbuzz">FizzBuzz (hier klicken)</string>
+    <string name="about_notifyme">Notify me (hier klicken)</string>
+
+    <!-- Instruction -->
+    <string name="instruction_general">Info</string>
+    <string name="instruction_combinations">Paare</string>
+    <string name="instruction_check">Check +</string>
+    <string name="instruction_buttons">Buttons</string>
+    <string name="instruction_combinations_1">Bei diesem Spiel müssen zwei gleiche Zahlen oder zwei Zahlen die zusammen 10 ergeben \'gestrichen\' werden.\nErlaubt sind aber nur Zahlen die nebeneinander, übereinander oder in der nächsten Reihe sind.</string>
+    <string name="instruction_combinations_3">Wie das folgende Bild zeigt: \n</string>
+    <string name="instruction_combinations_4">- Links die beiden 1en gehen, da sie untereinander sind</string>
+    <string name="instruction_combinations_5">- In der zweiten Reihe die beiden 1en gehen, da sie nebeneinander sind</string>
+    <string name="instruction_combinations_6">- Die 9 in der ersten und die 1 in der zweiten Reihen gehen, da sie über die Reihe hinaus nebeneinander sind</string>
+    <string name="instruction_combinations_7">\nWenn Zahlen durchgestrichen sind, kann man sie überspringen wie hier gezeigt:</string>
+    <string name="instruction_combinations_8">\nOder hier mit der 8 und 2:</string>
+    <string name="instruction_check_1">Wenn keine passenden Zahlen mehr vorhanden sind, muss man den \'Check\'-Knopf drücken, der Knopf mit dem +:</string>
+    <string name="instruction_check_2">\nDann werden alle Zahlen, die noch nicht durchgestrichen sind, unter die vorhandenen Zahlen geschrieben:</string>
+    <string name="instruction_general_1">Ziel des Spiels ist es, alle Zahlen durchzustreichen. Welche Zahlen durchgestrichen werden können wird auf der nächsten Seite erklärt. Spiele können sehr lange dauern. Mehrere Stunden Spielzeit ist keine Seltenheit, deshalb ist teilweise viel Geduld gefragt.</string>
+    <string name="instruction_general_2">\nInformationen zu den einzelnen Modi gibt es bei Klick auf das \'i\' in der Modusauswahl. Um den Modus \'Zeitduell\' freizuschalten, musst du mindestens einmal den 1&#8211;18 oder 1&#8211;19 Modus erfolgreich beenden.</string>
+    <string name="instruction_general_3">\nDas Spiel speichert und lädt automatisch. Bei einem gewünschten Neustart musst du auf den \'Neustart\' Knopf im Spiel drücken.</string>
+    <string name="instruction_general_4">\nUnter \'Optionen\' können die Ingame-Notifications (z.b. \'Erfolgreich\', \'Nicht Erfolgreich\'), die Notification-Bar ausgeschaltet und die Sprache geändert werden. Außerdem können dort die Farben für den Hintergrund und die einzelnen Ziffern geändert werden.</string>
+    <string name="instruction_buttons_1">Der \'Check\'-Knopf muss gedrückt werden, wenn keine Kombinationen mehr möglich sind. Er schreibt dann alle übrig gebliebenen Ziffern hinter die bisherigen (siehe auch Tab: Check).\n</string>
+    <string name="instruction_buttons_2">Der \'Rückgängig\'-Knopf macht den letzten Zug rückgänging.\n</string>
+    <string name="instruction_buttons_3">Der \'Löschen\'-Knopf löscht leere Reihen, damit man nicht so viel scrollen muss.\n</string>
+    <string name="instruction_buttons_4">Der \'Hilfe\'-Knopf zeigt (nur) eine zur Zeit mögliche Kombination. Ständiges Klicken des \'Hilfe\'-Knopfes führt nicht zwingend zur Lösung. Er ist erst nach einigen Sekunden klickbar, um durchgehendes Klicken zu verhindern. Kurzer Klick für komplette Hilfe, langer Klick um nur einen Hinweis zu bekommen, ob noch Kombinationen möglich sind.\n</string>
+    <string name="instruction_buttons_5">Der \'Neustart\'-Knopf kann verwendet werden um das aktuelle Spiel neuzustarten.</string>
+
+    <!-- Ingame Statistics -->
+    <string name="ingame_statistics_title">Spiel-Statistiken</string>
+    <string name="ingame_statistics_numbers">Zahlen</string>
+    <string name="ingame_statistics_rows">Reihen</string>
+    <string name="ingame_statistics_ones">Einsen</string>
+    <string name="ingame_statistics_twos">Zweien</string>
+    <string name="ingame_statistics_threes">Dreien</string>
+    <string name="ingame_statistics_fours">Vieren</string>
+    <string name="ingame_statistics_fives">Fünfen</string>
+    <string name="ingame_statistics_sixes">Sechsen</string>
+    <string name="ingame_statistics_sevens">Siebenen</string>
+    <string name="ingame_statistics_eights">Achten</string>
+    <string name="ingame_statistics_nines">Neunen</string>
+    <string name="ingame_statistics_error">Fehler</string>
+
+    <!-- Finished dialog -->
+    <string name="finished_dialog_menu">Menü</string>
+    <string name="finished_dialog_restart">Neustart</string>
+    <string name="finished_dialog_share">Teilen</string>
+    <string name="finished_dialog_header">Geschafft!</string>
+    <string name="finished_dialog_insert_sd">Bitte die SD-Karte einlegen</string>
+    <string name="finished_dialog_one_moment">Einen Moment&#8230;</string>
+    <string name="finished_dialog_sharing_not_possible">Teilen ist zurzeit auf ihrem Smartphone nicht möglich. Als Alternative können sie ein Screenshot machen.</string>
+    <string name="finished_dialog_not_solvable">Das Spiel ist nicht mehr lösbar. Starte ein neues mit \'Neustart\'.\n</string>
+
+    <string name="finished_dialog_needed">Ich habe&#160;</string>
+    <string name="finished_dialog_hours">&#160;Stunden,&#160;</string>
+    <string name="finished_dialog_minutes">&#160;Minuten,&#160;</string>
+    <string name="finished_dialog_seconds">&#160;Sekunden gebraucht!\n</string>
+    <string name="finished_dialog_time_how_good_are_you">\nWas schaffst du?\nLade dir \'Zahlenspiel\' im Play Store runter und zeige es!</string>
+
+    <string name="finished_dialog_118_header">Ich habe den 1&#8211;18 Modus&#160;</string>
+    <string name="finished_dialog_119_header">Ich habe den 1&#8211;19 Modus&#160;</string>
+    <string name="finished_dialog_quick_header">Ich habe den "Quick mode"&#160;</string>
+    <string name="finished_dialog_column_header">Ich habe den "Spaltenlöscher" Modus&#160;</string>
+    <string name="finished_dialog_times">&#160;Mal geschafft! Diesmal habe ich&#160;</string>
+    <string name="finished_dialog_times_how_good_are_you">&#160;Kombinationen benötigt. Was schaffst du?\nLade dir \'Zahlenspiel\' im Play Store runter und zeige es!</string>
+
+    <!-- Settings -->
+    <string name="settings_fullscreen_on">Vollbild <b>an</b> / aus</string>
+    <string name="settings_fullscreen_off">Vollbild an / <b>aus</b></string>
+    <string name="settings_notifications_on">Meldungen im Spiel <b>an</b> / aus</string>
+    <string name="settings_notifications_off">Meldungen im Spiel an / <b>aus</b></string>
+    <string name="settings_zoom_on">Zoom <b>an</b> / aus</string>
+    <string name="settings_zoom_off">Zoom an / <b>aus</b></string>
+    <string name="settings_auto_clear_on">Automatisch Zeilen löschen <b>an</b> / aus</string>
+    <string name="settings_auto_clear_off">Automatisch Zeilen löschen an / <b>aus</b></string>
+    <string name="settings_highlight_on">Nachbarn hervorheben <b>an</b> / aus</string>
+    <string name="settings_highlight_off">Nachbarn hervorheben an / <b>aus</b></string>
+    <string name="settings_buttons_position_top">Position der Knöpfe: <b>oben</b> / unten</string>
+    <string name="settings_buttons_position_bottom">Position der Knöpfe: oben / <b>unten</b></string>
+    <string name="settings_auto_clear_performance">Das automatische Löschen könnte einen geringen Einfluss auf die Performance haben, wenn viele Zahlen und Reihen im Spiel vorhanden sind</string>
+    <string name="settings_choose_colors">Farben wählen</string>
+    <string name="settings_language">Sprache</string>
+    <string name="settings_german">Deutsch</string>
+    <string name="settings_english">Englisch</string>
+    <string name="settings_greek">Griechisch</string>
+    <string name="settings_portuguese">Portugiesisch (Brasilien)</string>
+    <string name="settings_russian">Russisch</string>
+    <string name="settings_spanish">Spanisch</string>
+
+    <string name="choose_colors_header">Wähle die Farben durch Klicken auf die Farbe neben dem gewünschten Element. Die ausgewählte Farbe wird dadurch hervorgehoben, dass die anderen etwas transparent sind.</string>
+    <string name="choose_colors_background">Hintergrund</string>
+    <string name="choose_colors_one">Eins</string>
+    <string name="choose_colors_two">Zwei</string>
+    <string name="choose_colors_three">Drei</string>
+    <string name="choose_colors_four">Vier</string>
+    <string name="choose_colors_five">Fünf</string>
+    <string name="choose_colors_six">Sechs</string>
+    <string name="choose_colors_seven">Sieben</string>
+    <string name="choose_colors_eight">Acht</string>
+    <string name="choose_colors_nine">Neun</string>
+
+    <!-- Rate App dialog -->
+    <string name="rate_app_no">Nein, danke</string>
+    <string name="rate_app_later">Später</string>
+    <string name="rate_app_rate">Bewerte Zahlenspiel</string>
+    <string name="rate_app_header">Bewerte Zahlenspiel</string>
+    <string name="rate_app_text">Wenn dir Zahlenspiel gefällt, nimm dir einen Moment Zeit und bewerte es. \nDanke für die Unterstützung!</string>
+
+    <!-- Statistics -->
+    <string name="statistics_reset">Zurücksetzen</string>
+    <string name="statistics_total">Gesamtstatistik</string>
+    <string name="statistics_reset_dialog">Statistiken zurücksetzen?</string>
+    <string name="statistics_total_finished">Insgesamt Geschafft:\n</string>
+    <string name="statistics_total_combinations">Erfolgreiche Züge gesamt:\n</string>
+    <string name="statistics_total_numbers">Gesamtzahl aller bisher geschriebenen Zahlen:\n</string>
+    <string name="statistics_total_rows">Gesamtzahl aller bisher geschriebenen Reihen:\n</string>
+    <string name="statistics_total_numbers_now">Gesamtzahl aller Zahlen der jetzigen Spielstände:\n</string>
+    <string name="statistics_total_combinations_now">Gesamtzahl aller erfolgreichen Züge in den jetzigen Spielständen:\n</string>
+    <string name="statistics_total_time">Gesamtspielzeit:\n</string>
+    <string name="statistics_total_time_duel_record">Rekord im Zeitduell:\n</string>
+    <string name="statistics_total_time_duel_finished">Siege im Zeitduell:\n</string>
+
+    <string name="statistics_118_finished">Geschafft:\n</string>
+    <string name="statistics_118_combinations">Erfolgreiche Züge gesamt:\n</string>
+    <string name="statistics_118_numbers">Anzahl aller bisher geschriebenen Zahlen:\n</string>
+    <string name="statistics_118_rows">Anzahl aller bisher geschriebenen Reihen:\n</string>
+    <string name="statistics_118_numbers_now">Anzahl aller Zahlen des jetzigen Spielstands:\n</string>
+    <string name="statistics_118_combinations_now">Erfolgreiche Züge beim jetzigen Spielstand:\n</string>
+    <string name="statistics_118_time">Gesamtspielzeit:\n</string>
+    <string name="statistics_119_finished">Geschafft:\n</string>
+
+    <string name="statistics_119_combinations">Erfolgreiche Züge gesamt:\n</string>
+    <string name="statistics_119_numbers">Anzahl aller bisher geschriebenen Zahlen:\n</string>
+    <string name="statistics_119_rows">Anzahl aller bisher geschriebenen Reihen:\n</string>
+    <string name="statistics_119_numbers_now">Anzahl aller Zahlen des jetzigen Spielstands:\n</string>
+    <string name="statistics_119_combinations_now">Erfolgreiche Züge beim jetzigen Spielstand:\n</string>
+    <string name="statistics_119_time">Gesamtspielzeit:\n</string>
+</resources>
