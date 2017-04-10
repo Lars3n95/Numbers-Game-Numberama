@@ -1,2 +1,3 @@
 - [Lars3n95](https://github.com/Lars3n95): english, german, contributors file
 - [VasilisKos](https://github.com/VasilisKos): greek
+- Unknown: portuquese
