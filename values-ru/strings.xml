@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Игра с Числами</string>
+
+    <!-- Play -->
+    <string name="play_check">Обновить</string>
+    <string name="play_help">Подсказка</string>
+    <string name="play_clear">Очистить</string>
+    <string name="play_undo">Назад</string>
+    <string name="play_undo_check">Вы уже нажали \'Обновить\', вы хотите отменить \'Обновить\' или последнюю пару цифр?</string>
+    <string name="play_last_combination">Последнюю пару</string>
+    <string name="play_really_restart">Вы действительно хотите начать заново?</string>
+    <string name="play_yes">Да!</string>
+    <string name="play_no">Нет!</string>
+    <string name="play_not_successful">Не успешно!</string>
+    <string name="play_successful">Успешно!</string>
+    <string name="play_no_more_combinations">Больше нет возможных комбинаций - нажмите Обновить</string>
+    <string name="play_still_combinations">Все еще есть доступные комбинации</string>
+    <string name="play_no_more_combinations_won">Больше нет возможных комбинаций - вы выиграли</string>
+    <string name="play_random_numbers_header">Случайные номера?</string>
+    <string name="play_random_numbers_text">Вы хотите случайные цифры и числа из режима 1&#8211;18?</string>
+    <string name="play_random_number">Случайные</string>
+    <string name="play_no_random_numbers">1&#8211;18</string>
+    <string name="play_zoom_too_big">Невозможно. Кнопки не могут быть больше</string>
+    <string name="play_zoom_too_small">Невозможно. Кнопки не могут быть меньше</string>
+
+    <!-- Menu -->
+    <string name="menu_play">Играть</string>
+    <string name="menu_instructions">Как играть?</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_statistics">Статистика</string>
+    <string name="menu_info18">В начале игры у вас есть цифры из чисел 1&#8211;18. Игра отличается от 1&#8211;19 тем, что в конце на две цифры меньше (1 и 9).</string>
+    <string name="menu_info19">В начале игры у вас есть цифры из чисел 1&#8211;19. Игра отличается от 1&#8211;18 тем, что в конце на две цифры больше (1 и 9).</string>
+    <string name="menu_info_quick">Этот режим похож на 1&#8211;18. Разница в том, что этот режим намного быстрее. Подсказка появляется сразу, а так же сразу появляется предложение обновить игру, когда больше нет доступных комбинаций.</string>
+    <string name="menu_info_spalte">Этот режим похож на 1&#8211;18. Разница этого режима от других в том, что вы не можете очистить строки с помощью кнопки "Очистить", но вы можете очистить столбцы. Если у вас есть целая колонка, где все номера зачеркнуты, вы можете нажать кнопку "Очистить" и все закрашенные цифры уберутся. Остальные цифры изменят свое расположение, чтоб закрыть свободные места. Таким образом вы можете использовать кнопку "Очистить", чтоб тактически изменить ход игры.\nРЕКОМЕНДУЕТСЯ: Лучше не использовать кнопку "Очистить", чтобы удалить небольшие пробелы, если у вас есть только одна или две строки. Это может сделать игру еще сложнее, чем ожидалось ;)</string>
+    <string name="menu_info_time">Этот режим доступен, если вы хоть раз закончили 1&#8211;18 или 1&#8211;19.\nЦифры в начале игры расположены в случайном порядке и они разные в каждой новой игре!\nПока вы играете, идет отсчет времени.\n Закончите игру как можно быстрее и побейте свои прежние рекорды!\nВы можете найти свои рекорды в Статистике -> Общая статистика!</string>
+    <string name="menu_rate_app">Оцените приложение</string>
+    <string name="menu_about_privacy">&#160;Об авторе &amp; Лицензионное соглашение&#160;</string>
+    <string name="menu_choose_mode">Выберите режим</string>
+    <string name="menu_118">1&#8211;18</string>
+    <string name="menu_119">1&#8211;19</string>
+    <string name="menu_quick_mode">Быстрый режим</string>
+    <string name="menu_column_mode">Режим столбцов</string>
+    <string name="menu_time_duel">Дуэль со временем</string>
+
+    <string name="menu_leaderboards">Таблица лидеров</string>
+    <string name="menu_achievements">Достижения</string>
+    <string name="menu_login_googleplay">Пожалуйста, залогиньтесь в Google Play Games (Кликните на джойстик в главном меню)</string>
+
+    <!-- About -->
+    <string name="about_header">\nОб авторе</string>
+    <string name="about_privacy_policy_header">Лицензионное соглашение</string>
+    <string name="about_name_email">\nContact:\n___\n\nE-Mail:\n___</string>
+    <string name="about_more_apps">\nДругие приложения:</string>
+    <string name="about_fast_typing">Fast Typing (click here)</string>
+    <string name="about_fizzbuzz">FizzBuzz (click here)</string>
+    <string name="about_notifyme">Notify me (click here)</string>
+
+    <!-- Instruction -->
+    <string name="instruction_general">Основное</string>
+    <string name="instruction_combinations">Пары</string>
+    <string name="instruction_check">Обновить +</string>
+    <string name="instruction_buttons">Кнопки</string>
+    <string name="instruction_combinations_1">В этой игре вы должны вычеркнуть соседние (по вертикали или непрерывно) пары цифр. Но вы можете вычеркнуть только одинаковые цифры или те, которые дают в сумме 10.</string>
+    <string name="instruction_combinations_3">Эта картинка показывает как это работает: \n</string>
+    <string name="instruction_combinations_4">- Слева две 1, потому что они находятся друг над другом</string>
+    <string name="instruction_combinations_5">- Во второй строке две 1, потому что они находятся рядом друг с другом</string>
+    <string name="instruction_combinations_6">- 9 в первой и 1 во второй строке, потому что они находятся в следующей строке, и между ними ничего нет</string>
+    <string name="instruction_combinations_7">\nЕсли какие-то цифры зачеркнуты, вы можете пропустить их, как показано здесь:</string>
+    <string name="instruction_combinations_8">\nИли, как показано здесь с 8 и 2:</string>
+    <string name="instruction_check_1">Если нет больше цифр, которые сочетаются друг с другом, вы должны нажать кнопку \'Обновить\', это кнопка с +:</string>
+    <string name="instruction_check_2">\nТогда все цифры, которые вы не смогли вычеркнуть, будут записаны следом за существующими цифрами:</string>
+    <string name="instruction_general_1">Игра закончена, когда все цифры зачеркнуты. Проверьте следующую вкладку, чтобы узнать, какие цифры вы можете вычеркнуть. Игра может занять очень много времени. Она часто занимает много часов.</string>
+    <string name="instruction_general_2">\nДля получения более подробной информации о режимах нажмите маленькую \'i\' в \'Выборе режима\'. Вы должны закончить режим 1&#8211;18 или 1&#8211;19 один раз, чтоб открыть режим \'Дуэль со временем\'.</string>
+    <string name="instruction_general_3">\nИгра загружается и сохраняется автоматически. Если хотите начать заново, нажмите на кнопку \'Заново\' в игре.</string>
+    <string name="instruction_general_4">\nВ настройках вы можете включить внутриигровые уведомления (например, \'Успешно\', \'Не успешно\'), а так же настроить панель уведомлений. Кроме того, вы можете изменить язык и цвета фона и цифр.</string>
+    <string name="instruction_buttons_1">Кнопку \'Обновить\' нужно нажать, если больше нет комбинаций цифр. Это добавит новые цифры после оставшихся (см.описание кнопки "Обновить").\n</string>
+    <string name="instruction_buttons_2">Кнопка \'Назад\' отменяет последний ход.\n</string>
+    <string name="instruction_buttons_3">Кнопка \'Очистить\' удаляет зачеркнутые строки.\n</string>
+    <string name="instruction_buttons_4">Кнопка \'Подсказка\' только показывает комбинацию, которая возможна на настоящий момент. Постоянное нажатие на кнопку совершенно необязательно поможет удалить все цифры. Нажать на кнопку можно только спустя несколько секунд (во избежание постоянного использования). Нажмите коротко для подсказки и длительно, чтоб узнать, есть ли еще доступные комбинации.\n</string>
+    <string name="instruction_buttons_5">Кнопка \'Заново\' может быть использована, чтоб начать заново текущую игру.</string>
+
+    <!-- Ingame Statistics -->
+    <string name="ingame_statistics_title">Статистика игры</string>
+    <string name="ingame_statistics_numbers">Цифры</string>
+    <string name="ingame_statistics_rows">Строки</string>
+    <string name="ingame_statistics_ones">Единицы</string>
+    <string name="ingame_statistics_twos">Двойки</string>
+    <string name="ingame_statistics_threes">Тройки</string>
+    <string name="ingame_statistics_fours">Четверки</string>
+    <string name="ingame_statistics_fives">Пятерки</string>
+    <string name="ingame_statistics_sixes">Шестерки</string>
+    <string name="ingame_statistics_sevens">Семерки</string>
+    <string name="ingame_statistics_eights">Восьмерки</string>
+    <string name="ingame_statistics_nines">Девятки</string>
+    <string name="ingame_statistics_error">Ошибки</string>
+
+    <!-- Finished dialog -->
+    <string name="finished_dialog_menu">Меню</string>
+    <string name="finished_dialog_restart">Заново</string>
+    <string name="finished_dialog_share">Поделиться</string>
+    <string name="finished_dialog_header">Вы сделали это!</string>
+    <string name="finished_dialog_insert_sd">Пожалуйста, вставьте карту памяти</string>
+    <string name="finished_dialog_one_moment">Минутку&#8230;</string>
+    <string name="finished_dialog_sharing_not_possible">Ваш смартфон не поддерживает фунцию "Поделиться". Вы можете сделать скриншот.</string>
+    <string name="finished_dialog_not_solvable">Игра больше нерешаема. Начните новую игру кнопкой \'Заново\'.\n</string>
+
+    <string name="finished_dialog_needed">Мне потребовалось&#160;</string>
+    <string name="finished_dialog_hours">&#160;Часов,&#160;</string>
+    <string name="finished_dialog_minutes">&#160;минут,&#160;</string>
+    <string name="finished_dialog_seconds">&#160;секунд!\n</string>
+    <string name="finished_dialog_time_how_good_are_you">\nСколько потребуется тебе?\nЗагрузи \'Игру с Числами - Numberama\' из Play Store и покажи!</string>
+
+    <string name="finished_dialog_118_header">Я закончил режим 1&#8211;18 &#160;</string>
+    <string name="finished_dialog_119_header">Я закончил режим 1&#8211;19 &#160;</string>
+    <string name="finished_dialog_quick_header">Я закончил "Быстрый режим"&#160;</string>
+    <string name="finished_dialog_column_header">Я закончил "Режим столбцов"&#160;</string>
+    <string name="finished_dialog_times">&#160;раз! В этот раз мне потребовалось&#160;</string>
+    <string name="finished_dialog_times_how_good_are_you">&#160;комбинаций. Сколько потребуется тебе?\nЗагрузи \'Игру с Числами - Numberama\' из Play Store и покажи!</string>
+
+    <!-- Settings -->
+    <string name="settings_fullscreen_on">Во весь экран <b>вкл</b> / выкл</string>
+    <string name="settings_fullscreen_off">Во весь экран вкл / <b>выкл</b></string>
+    <string name="settings_notifications_on">Внутриигровые уведомления <b>вкл</b> / выкл</string>
+    <string name="settings_notifications_off">Внутриигровые уведомления вкл / <b>выкл</b></string>
+    <string name="settings_zoom_on">Увеличить <b>вкл</b> / выкл</string>
+    <string name="settings_zoom_off">Увеличить вкл / <b>выкл</b></string>
+    <string name="settings_auto_clear_on">Автоматически очищать строки <b>вкл</b> / выкл</string>
+    <string name="settings_auto_clear_off">Автоматически очищать строки вкл / <b>выкл</b></string>
+    <string name="settings_highlight_on">Подсвечивать соседние цифры <b>вкл</b> / выкл</string>
+    <string name="settings_highlight_off">Подсвечивать соседние цифры вкл / <b>выкл</b></string>
+    <string name="settings_buttons_position_top">Положение кнопок в игре: <b>сверху</b> / снизу</string>
+    <string name="settings_buttons_position_bottom">Положение кнопок в игре: сверху / <b>снизу</b></string>
+    <string name="settings_auto_clear_performance">\'Автоочистка \' может оказать незначительное влияние на результаты, если у вас много цифр и строк в игре</string>
+    <string name="settings_choose_colors">Выберите цвета</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_german">Немецкий</string>
+    <string name="settings_english">Английский</string>
+    <string name="settings_greek">Греческий</string>
+    <string name="settings_portuguese">Португальский (Бразилия)</string>
+    <string name="settings_russian">русский</string>
+    <string name="settings_spanish">испанский</string>
+
+    <string name="choose_colors_header">Выберите цвет, нажав на цвет рядом с указанным элементом. Выбранный цвет будет подсвечен, остальные прозрачны.</string>
+    <string name="choose_colors_background">Фон</string>
+    <string name="choose_colors_one">Один</string>
+    <string name="choose_colors_two">Два</string>
+    <string name="choose_colors_three">Три</string>
+    <string name="choose_colors_four">Четыре</string>
+    <string name="choose_colors_five">Пять</string>
+    <string name="choose_colors_six">Шесть</string>
+    <string name="choose_colors_seven">Семь</string>
+    <string name="choose_colors_eight">Восемь</string>
+    <string name="choose_colors_nine">Девять</string>
+
+    <!-- Rate App dialog -->
+    <string name="rate_app_no">Нет, спасибо</string>
+    <string name="rate_app_later">Напомнить позже</string>
+    <string name="rate_app_rate">Оценить Игру с Числами</string>
+    <string name="rate_app_header">Оценить Игру с Числами</string>
+    <string name="rate_app_text">Если вам нравится Игра с Числами, пожалуйста, уделите время и оцените ее. \nСпасибо за вашу поддержку!</string>
+
+    <!-- Statistics -->
+    <string name="statistics_reset">Сброс</string>
+    <string name="statistics_total">Общая статистика</string>
+    <string name="statistics_reset_dialog">Обнулить статистику?</string>
+    <string name="statistics_total_finished">Общее число законченных игр:\n</string>
+    <string name="statistics_total_combinations">Общее число успешных соединений двух цифр:\n</string>
+    <string name="statistics_total_numbers">Общее число всех написанных цифр:\n</string>
+    <string name="statistics_total_rows">Общее число всех написанных строк:\n</string>
+    <string name="statistics_total_numbers_now">Общее количество всех написанных цифр в текущих играх:\n</string>
+    <string name="statistics_total_combinations_now">Общее количество всех успешных соединений между двумя цифрами в текущих играх:\n</string>
+    <string name="statistics_total_time">Общее время в игре:\n</string>
+    <string name="statistics_total_time_duel_record">Рекорд дуэли со временем:\n</string>
+    <string name="statistics_total_time_duel_finished">Количество законченных дуэлей со временем:\n</string>
+
+    <string name="statistics_118_finished">Закончено игр:\n</string>
+    <string name="statistics_118_combinations">Количество успешных соединений двух цифр:\n</string>
+    <string name="statistics_118_numbers">Количество всех написанных цифр:\n</string>
+    <string name="statistics_118_rows">Количество всех написанных строк:\n</string>
+    <string name="statistics_118_numbers_now">Количество всех написанных цифр в текущей игре:\n</string>
+    <string name="statistics_118_combinations_now">Количество всех успешных соединений между двумя цифрами в текущей игре:\n</string>
+    <string name="statistics_118_time">Время в игре:\n</string>
+
+    <string name="statistics_119_finished">Закончено игр:\n</string>
+    <string name="statistics_119_combinations">Количество успешных соединений двух цифр:\n</string>
+    <string name="statistics_119_numbers">Количество всех написанных цифр:\n</string>
+    <string name="statistics_119_rows">Количество всех написанных строк:\n</string>
+    <string name="statistics_119_numbers_now">Количество всех написанных цифр в текущей игре:\n</string>
+    <string name="statistics_119_combinations_now">Количество всех успешных соединений между двумя цифрами в текущей игре:\n</string>
+    <string name="statistics_119_time">Время в игре:\n</string>
+</resources>
