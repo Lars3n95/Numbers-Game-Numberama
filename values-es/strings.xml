@@ -112,7 +112,7 @@
     <string name="finished_dialog_seconds">&#160;segundos!\n</string>
     <string name="finished_dialog_time_how_good_are_you">\n¿Qué tan bueno eres tú?\nDescarga \'Numbers Game - Numberama\' de la Play Store y demuéstralo!</string>
 
-    <string name="finished_dialog_118_header">Ich habe den 1&#8211;18 Modus&#160;</string>
+    <string name="finished_dialog_118_header">He terminado el modo 1&#8211;18&#160;</string>
     <string name="finished_dialog_119_header">He terminado el modo 1&#8211;19&#160;</string>
     <string name="finished_dialog_quick_header">He terminado el "Modo rápido"&#160;</string>
     <string name="finished_dialog_column_header">He terminado el "Modo de columna"&#160;</string>
